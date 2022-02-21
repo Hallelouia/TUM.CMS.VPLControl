@@ -1,24 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUM.CMS.VplControl", "TUM.CMS.VplControl\TUM.CMS.VplControl.csproj", "{593E9BFD-BE78-4487-9E22-76AE7DF0B84A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TUM.CMS.VplControl", "TUM.CMS.VplControl\TUM.CMS.VplControl.csproj", "{593E9BFD-BE78-4487-9E22-76AE7DF0B84A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUM.CMS.VplControl.Test", "TUM.CMS.VplControl.Test\TUM.CMS.VplControl.Test.csproj", "{A2AAA7E5-91CA-4349-8569-0A21037CE666}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A8B4A5F8-87BB-489D-A107-F58E818AB82D} = {A8B4A5F8-87BB-489D-A107-F58E818AB82D}
-		{593E9BFD-BE78-4487-9E22-76AE7DF0B84A} = {593E9BFD-BE78-4487-9E22-76AE7DF0B84A}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUM.CMS.VPL.Scripting", "TUM.CMS.VPL.Scripting\TUM.CMS.VPL.Scripting.csproj", "{A8B4A5F8-87BB-489D-A107-F58E818AB82D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TUM.CMS.VplControl.Test", "TUM.CMS.VplControl.Test\TUM.CMS.VplControl.Test.csproj", "{A2AAA7E5-91CA-4349-8569-0A21037CE666}"
 	ProjectSection(ProjectDependencies) = postProject
 		{593E9BFD-BE78-4487-9E22-76AE7DF0B84A} = {593E9BFD-BE78-4487-9E22-76AE7DF0B84A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUM.CMS.VplControl.Watch3D", "TUM.CMS.VplControl.Watch3D\TUM.CMS.VplControl.Watch3D.csproj", "{39C73FB5-D284-409D-835A-803090E867C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TUM.CMS.VPL.Scripting", "TUM.CMS.VPL.Scripting\TUM.CMS.VPL.Scripting.csproj", "{A8B4A5F8-87BB-489D-A107-F58E818AB82D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{593E9BFD-BE78-4487-9E22-76AE7DF0B84A} = {593E9BFD-BE78-4487-9E22-76AE7DF0B84A}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUM.CMS.NodeClassGenerator", "TUM.CMS.NodeClassGenerator\TUM.CMS.NodeClassGenerator.csproj", "{E7781C0B-E040-4D1A-A929-92FF22AEA95D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TUM.CMS.VplControl.Watch3D", "TUM.CMS.VplControl.Watch3D\TUM.CMS.VplControl.Watch3D.csproj", "{39C73FB5-D284-409D-835A-803090E867C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TUM.CMS.NodeClassGenerator", "TUM.CMS.NodeClassGenerator\TUM.CMS.NodeClassGenerator.csproj", "{E7781C0B-E040-4D1A-A929-92FF22AEA95D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{593E9BFD-BE78-4487-9E22-76AE7DF0B84A} = {593E9BFD-BE78-4487-9E22-76AE7DF0B84A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,5 +65,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EE06DEB-3BD6-47C7-A849-D88C76F76FC1}
 	EndGlobalSection
 EndGlobal
